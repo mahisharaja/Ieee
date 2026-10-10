@@ -1,0 +1,282 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mahisha | My Portfolio</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #0f172a;
+        color: white;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #111827;
+        padding: 20px 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    header h2 {
+        color: #38bdf8;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 18px;
+        font-size: 14px;
+    }
+
+    nav a:hover {
+        color: #38bdf8;
+    }
+
+    .hero {
+        min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .hero h1 span {
+        color: #38bdf8;
+    }
+
+    .hero h3 {
+        color: #cbd5e1;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        max-width: 600px;
+        color: #cbd5e1;
+        margin-bottom: 25px;
+    }
+
+    .button {
+        display: inline-block;
+        background: #38bdf8;
+        color: #0f172a;
+        padding: 12px 25px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 65px 8%;
+    }
+
+    section h2 {
+        text-align: center;
+        font-size: 32px;
+        color: #38bdf8;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        background: #1e293b;
+        padding: 25px;
+        border-radius: 15px;
+        margin: 15px auto;
+        max-width: 850px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .card h3 {
+        color: #38bdf8;
+        margin-bottom: 10px;
+    }
+
+    .skills {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .skill {
+        background: #1e293b;
+        border: 1px solid #38bdf8;
+        padding: 15px 25px;
+        border-radius: 10px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    footer {
+        background: #111827;
+        text-align: center;
+        padding: 20px;
+        color: #cbd5e1;
+    }
+
+    @media (max-width: 600px) {
+        .hero h1 {
+            font-size: 34px;
+        }
+
+        header {
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 5px;
+        }
+    }
+</style>
+
+</head><body><header>
+    <h2>Mahisha.</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h3>Hello, Welcome to My Portfolio!</h3>
+
+    <h1>I'm <span>Mahisha</span></h1>
+
+    <h3>ECE Student | Future Engineer</h3>
+
+    <p>
+        I am an Electronics and Communication Engineering student
+        who loves learning new technologies, developing projects,
+        and improving my programming skills.
+    </p>
+
+    <a href="#about" class="button">Discover More</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+        <h3>Who Am I?</h3>
+
+        <p>
+            My name is Mahisha. I am a first-year Electronics and
+            Communication Engineering (ECE) student at KPRIET.
+
+            I am interested in technology, programming, and
+            problem-solving. I enjoy exploring new ideas and
+            learning how technology can solve real-world problems.
+
+            I believe that consistent learning, hard work, and
+            determination will help me achieve my dreams.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">C++</div>
+        <div class="skill">HTML</div>
+        <div class="skill">Problem Solving</div>
+        <div class="skill">Teamwork</div>
+        <div class="skill">Communication</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>Railway Obstacle Detection Emergency Safety System</h3>
+
+        <p>
+            A safety-focused engineering project designed to detect
+            obstacles on railway tracks and provide warnings.
+            The prototype uses an Arduino and sensors to demonstrate
+            obstacle detection and emergency stopping.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Worker Attendance Management App</h3>
+
+        <p>
+            A mobile application concept for recording worker
+            attendance and organizing attendance information
+            digitally.
+        </p>
+    </div>
+</section>
+
+<section id="goals">
+    <h2>My Future Goals</h2>
+
+    <div class="card">
+        <p>
+            My goals are to improve my technical knowledge,
+            develop useful projects, secure a good job, and
+            prepare for competitive railway recruitment exams.
+
+            I also want to support my family, renovate my home,
+            become financially independent, and enjoy life while
+            continuing to learn and grow.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <div class="card">
+        <p>
+            Thank you for visiting my portfolio!
+        </p>
+
+        <p>
+            I am always ready to learn, collaborate, and explore
+            new opportunities.
+        </p>
+
+        <!-- Add your email or LinkedIn profile here -->
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Mahisha | Personal Portfolio</p>
+    <p>Designed with passion and creativity.</p>
+</footer>
+
+</body>
+</html>
